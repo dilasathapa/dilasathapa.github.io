@@ -1,16 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.51bdbf96.js",
+    "main.css": "/static/css/main.41fde449.css",
+    "main.js": "/static/js/main.327f7e7d.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/spotifyclonecom.gif": "/static/media/spotifyclonecom.914510491b847df6f968.gif",
+    "static/media/gif3.gif": "/static/media/gif3.9811b099e3ce7c024b2d.gif",
+    "static/media/gif2.gif": "/static/media/gif2.8172d15fce10fdc6d639.gif",
+    "static/media/icon-animation.gif": "/static/media/icon-animation.ce9b5736cd071feb5c99.gif",
+    "static/media/dthapa.jpg": "/static/media/dthapa.de9c2302a25d69809561.jpg",
+    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/react.ico": "/static/media/react.95d7da2a9a083faa8c53.ico",
+    "static/media/redux.ico": "/static/media/redux.0b337aa9411229496bb6.ico",
+    "static/media/java.ico": "/static/media/java.48760053abd8f1f43557.ico",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/express.png": "/static/media/express.46a5f6d7fb3e13b1d424.png",
+    "static/media/javascript.ico": "/static/media/javascript.b729b38948036d3ba89a.ico",
+    "static/media/css3.ico": "/static/media/css3.f3cc16985b6eb1877f9e.ico",
+    "static/media/html.ico": "/static/media/html.29575ab747111178b1ad.ico",
+    "static/media/mongodb.ico": "/static/media/mongodb.4273f571ccecac3575d5.ico",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.51bdbf96.js.map": "/static/js/main.51bdbf96.js.map",
+    "main.41fde449.css.map": "/static/css/main.41fde449.css.map",
+    "main.327f7e7d.js.map": "/static/js/main.327f7e7d.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.51bdbf96.js"
+    "static/css/main.41fde449.css",
+    "static/js/main.327f7e7d.js"
   ]
 }
