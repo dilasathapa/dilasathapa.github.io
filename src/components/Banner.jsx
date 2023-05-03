@@ -12,7 +12,7 @@ import dthapa from "./../images/myimage/dthapa.jpg"
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Aspiring Full Stack Web Developer", "Aspiring Full Stack Web Developer", "Aspiring Full Stack Web Developer"];
+    const toRotate = ["Full Stack Web Developer", "Full Stack Web Developer", "Full Stack Web Developer"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
@@ -76,7 +76,7 @@ export const Banner = () => {
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <span>Welcome to my Portfolio</span>
-                                    <h1>Hi! I'm <i style={{color:"rgb(17,139,150)"}}>Dilasa Thapa</i>  <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Aspiring Full Stack Web Developer",  "Aspiring Full Stack Web Developer", "Aspiring Full Stack Web Developer",]'><span className="wrap">{text}</span></span></h1>
+                                    <h1>Hi! I'm <i style={{color:"rgb(17,139,150)"}}>Dilasa Thapa</i>  <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Full Stack Web Developer",  "Full Stack Web Developer", "Full Stack Web Developer",]'><span className="wrap">{text}</span></span></h1>
                                     <p>My goal is to leverage my technical expertise, creativity, and problem-solving skills to build innovative solutions that meet the needs of businesses and individuals. I have experience working with a variety of programming languages, frameworks, and technologies, and I am always eager to learn and grow as a developer. Thank you for taking the time to explore my portfolio, and I look forward to connecting with you.</p>
                                     <button onClick={onButtonClick}>Download CV <Nav.Link href="#form-parent"> <ArrowRightCircle size={25} /></Nav.Link></button>
                                 </div>}
