@@ -13,35 +13,63 @@ const Projects = () => {
           <h1>PROJECTS</h1>
         </div>
         <div id="display">
-          <div id="play" >
-            <img src={pro1} alt="p1" id="video-links" />
-            <p id="pro-titles1"> <i>Spotify Clone</i> </p>
-            <div id="link">
-              <p> <a href="https://github.com/ritikraj07/Project_Spotify.com"> <FaGithub className="icon" /></a></p>
-              <p className="icon">|</p>
-              <p> <a href="https://wondrous-stroopwafel-729c2a.netlify.app"> <FaExternalLinkAlt className="icon" /></a> </p>
+          <div className="play" >
+            <div className="project-photos">
+
+              <img src="https://snipboard.io/KhOtc8.jpg" alt="p1" className="photo-links" />
+            </div>
+            <div className="description">
+              <h3>The Nest Homestay</h3>
+              <p>Currently developing a full-stack room booking web application using React.js, Node.js, Express.js, MongoDB, Firebase, and Cloudinary; built a functional prototype featuring room listings, booking request forms, and dynamic availability.</p>
+              <p>Designed responsive frontend components with React.js and CSS/SCSS, ensuring smooth navigation across desktop and mobile devices.</p>
+              <p>Implementing RESTful APIs and database schema for bookings, user interactions, and admin management while collaborating with the client for feedback and iterative improvements.</p>
+              <div className="icon-link">
+                {/* <p> <a href="https://github.com/ritikraj07/Project_Spotify.com"> <FaGithub className="icon" /></a></p>
+                <p className="icon">|</p> */}
+                <p> <a href="https://wondrous-stroopwafel-729c2a.netlify.app"> <FaExternalLinkAlt className="icon" /></a> </p>
+              </div>
             </div>
 
           </div>
 
-          <div id="play" >
-            <img src={pro2} alt="p1" id="video-links2" />
-            <p id="pro-titles2"> <i>Myfitnesspal Clone</i> </p>
-            <div id="link2">
-              <p> <a href="https://github.com/dilasathapa/myfitnesspal-clone"><FaGithub className="icon" /></a> </p>
-              <p className="icon">|</p>
-              <p> <a href="https://cw-06-myfitnesspal.netlify.app/"> <FaExternalLinkAlt className="icon" /></a></p>
+          <div className="play" >
+            
+            <div className="description">
+              <h3>Myfitnesspal Clone</h3>
+              <p>It allows users to track calories, monitor progress toward weight-management goals, and gain support from an online community.</p>
+              <p>built the home page and profile page of the user, worked on the navbar and responsiveness of the site</p>
+              <div className="icon-link">
+                <p> <a href="https://github.com/ritikraj07/Project_Spotify.com"> <FaGithub className="icon" /></a></p>
+                <p className="icon">|</p>
+                <p> <a href="https://wondrous-stroopwafel-729c2a.netlify.app"> <FaExternalLinkAlt className="icon" /></a> </p>
+              </div>
             </div>
-          </div>
-          <div id="play" >
-            <img src={pro3} alt="p1" id="video-links3" />
-            <p id="pro-titles3"> <i>Skinstore Clone</i> </p>
-            <div id="link3">
-              <p> <a href="https://github.com/AmanNinave/Masai-School-DNA"><FaGithub className="icon" /></a> </p>
-              <p className="icon">|</p>
-              <p> <a href="hhttps://63ff9841d9da6b18812e275c--wondrous-stroopwafel-729c2a.netlify.app/an-skinstore/homepage/"> <FaExternalLinkAlt className="icon" /></a></p>
+            <div className="project-photos">
 
+              <img src="https://snipboard.io/qMWbnd.jpg" alt="p2" className="photo-links" />
             </div>
+            
+
+          </div>
+          <div className="play" >
+            <div className="project-photos">
+
+              <img src="https://snipboard.io/iW3mRx.jpg" alt="p3" className="photo-links" />
+            </div>
+            <div className="description">
+              <h3>Fakesters</h3>
+              <p>Fakesters is an anonymous fake chatting app where users can freely talk to strangers without revealing their real identity. It provides a safe and fun space to share thoughts, vent feelings, or simply enjoy random conversations.</p>
+             <p>Completed core real-time chat functionality enabling dynamic conversations between random users.</p>
+             <p>Currently working on additional features like user account management, random user matching, chat history, and theme customization.</p>
+              <div className="icon-link">
+                <p> <a href="https://github.com/ritikraj07/Project_Spotify.com"> <FaGithub className="icon" /></a></p>
+                <p className="icon">|</p>
+                <p> <a href="https://wondrous-stroopwafel-729c2a.netlify.app"> <FaExternalLinkAlt className="icon" /></a> </p>
+              </div>
+            </div>
+            
+            
+
           </div>
 
         </div>
