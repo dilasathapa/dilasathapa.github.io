@@ -398,8 +398,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill h2 {
-  font-size: 45px;
+  font-size: 60px;
   font-weight: 700;
+  color: rgb(18, 147, 158);
+  font-family: 'Bebas Neue', sans-serif !important;
+  text-decoration: underline;
 }
 
 .skill p {
@@ -433,16 +436,37 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 150px;
 } */
 
-/* About  */
+/*------------------------------ About -----------------------------------*/
+
+#about>h1{
+
+  font-family: 'Bebas Neue', sans-serif !important;
+  font-size: 60px;
+  text-decoration: underline;
+  margin-bottom: 5%;
+  /* border: 2px solid red; */
+}
+
+.text {
+  color: white;
+  transition: color 0.4s ease;
+}
+
+.text.active {
+  color: rgb(18, 147, 158);   /* Change to any color you want */
+}
 
 #achild-parent {
-  margin: 2% 15%;
-  width: 70%;
-  border: 5px solid rgb(18, 147, 158);
-  border-style: dashed;
+  margin: 2% 5%;
+  width: 90%;
+  /* border: 5px solid rgb(18, 147, 158); */
+  /* border-style: dashed; */
   text-align: justify;
-  padding: 5%;
+  /* padding: 5%; */
   /* text-decoration: wavy; */
+  white-space: pre-wrap;  
+  word-break: break-word;
+  tab-size: 4;
   font-size: 18px;
   color: #B8B8B8;
   font-weight: 400;
@@ -454,12 +478,99 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 20px;
   font-size: 45px;
   font-weight: 700;
-  color: #fff;
+  /* color: #fff; */
   /* margin-block-start: 1em; */
   /* margin-block-end: 1em; */
   background-color: #000;
 }
 
+/*************------------------Experience----------------------------*******************************/
+
+
+.experience {
+  position: relative;
+  padding: 3% 10%;
+  background-color: #000;
+  /* border: 2px solid red; */
+}
+.experience>h1{
+  /* border: 2px solid pink; */
+  margin-bottom: 5%;
+  font-size: 60px;
+  font-family: 'Bebas Neue', sans-serif !important;
+  text-decoration: underline;
+  
+  /* color: rgb(18, 147, 158);  */
+}
+
+/* Vertical timeline line */
+.timeline {
+  position: absolute;
+  box-shadow: rgb(18, 147, 158) 0px 40px 90px 6px;
+  /* left: 20%; */
+  right: 47.3%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #e5e5e5;
+  margin-top: 13%;
+}
+
+/* Each row */
+.experience-row {
+  display: grid;
+  grid-template-columns: 30% 10% 60%;
+  align-items: start;
+  margin-bottom: 2%;
+
+  margin-left: 32.5%;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease;
+  /* border: 2px solid yellow; */
+}
+
+.experience-row.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Year column */
+.year {
+  font-size: 18px;
+  font-weight: 500;
+  color: #888;
+  text-align: right;
+  padding-right: 20px;
+}
+
+/* Dot */
+.dot {
+  width: 14px;
+  height: 14px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  top: 6px;
+}
+
+/* Content */
+.details h2 {
+  font-size: 26px;
+  margin-bottom: 6px;
+}
+
+.details h3 {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.details p {
+  max-width: 500px;
+  line-height: 1.6;
+  color: #444;
+}
 
 /************---------------------- Projects Css -------------------------************/
 
@@ -475,10 +586,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 #projects h1 {
   text-align: center;
   padding: 20px;
-  font-size: 45px;
+  font-size: 60px;
   font-weight: 700;
   color: #fff;
-}
+  font-family: 'Bebas Neue', sans-serif !important;
+  text-decoration: underline;
+} 
 
 #pro-titles1 {
   margin-left: 55%;

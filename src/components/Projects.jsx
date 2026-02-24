@@ -10,7 +10,7 @@ const Projects = () => {
     <>
       <div id="myprojects">
         <div id="projects">
-          <h1>Projects</h1>
+          <h1>PROJECTS</h1>
         </div>
         <div id="display">
           <div id="play" >

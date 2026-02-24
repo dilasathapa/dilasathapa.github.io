@@ -9,7 +9,7 @@ import { Githubstats } from './components/Githubstats';
 
 import About from "./components/About"
 import { Footer } from "./components/Footer";
-// import AllRoutes from './components/Allroutes';
+import Experience from './components/Experience';
 
 function App() {
   return (
@@ -17,7 +17,8 @@ function App() {
       <NavBar/>
       <Banner />
       <About />
-       <Skills/>
+      <Experience />
+      <Skills/>
       <Projects /> 
       <Githubstats />
       <Contact />
