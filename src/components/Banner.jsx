@@ -51,12 +51,12 @@ export const Banner = () => {
     }
 
     const onButtonClick = () => {
-        fetch("Dilasa_Thapa_CV.pdf").then((response) => {
+        fetch("dilasa_thapa.pdf").then((response) => {
           response.blob().then((blob) => {
             const fileURL = window.URL.createObjectURL(blob);
             let alink = document.createElement("a");
             alink.href = fileURL;
-            alink.download = "Dilasa_Thapa_CV.pdf";
+            alink.download = "dilasa_thapa.pdf";
             alink.click();
           });
         });
@@ -75,7 +75,7 @@ export const Banner = () => {
                                     <span>Welcome to my Portfolio</span>
                                     <h1>Hi! I'm <i style={{color:"rgb(17,139,150)"}}>Dilasa Thapa</i>  <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Aspiring Full Stack Web Developer",  "Technical Mentor", "Aspiring Full Stack Web Developer",]'><span className="wrap">{text}</span></span></h1>
                                     <p>My goal is to leverage my technical expertise, creativity, and problem-solving skills to build innovative solutions that meet the needs of businesses and individuals. I have experience working with a variety of programming languages, frameworks, and technologies, and I am always eager to learn and grow as a developer. Thank you for taking the time to explore my portfolio, and I look forward to connecting with you.</p>
-                                    <button onClick={onButtonClick}>Download CV <Nav.Link href="#form-parent"> <ArrowRightCircle size={25} /></Nav.Link></button>
+                                    <button onClick={onButtonClick} target="_blank">Download CV <Nav.Link href="#form-parent"> <ArrowRightCircle size={25} /></Nav.Link></button>
                                 </div>}
                         </TrackVisibility>
                     </Col>
