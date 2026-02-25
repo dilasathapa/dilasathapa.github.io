@@ -26,7 +26,7 @@ const Projects = () => {
               <div className="icon-link">
                 {/* <p> <a href="https://github.com/ritikraj07/Project_Spotify.com"> <FaGithub className="icon" /></a></p>
                 <p className="icon">|</p> */}
-                <p> <a href="https://wondrous-stroopwafel-729c2a.netlify.app"> <FaExternalLinkAlt className="icon" /></a> </p>
+                <p> <a target="_blank" href="https://nesthomestay-8e7e1.web.app/"> <FaExternalLinkAlt className="icon" /></a> </p>
               </div>
             </div>
 
@@ -39,9 +39,9 @@ const Projects = () => {
               <p>It allows users to track calories, monitor progress toward weight-management goals, and gain support from an online community.</p>
               <p>built the home page and profile page of the user, worked on the navbar and responsiveness of the site</p>
               <div className="icon-link">
-                <p> <a href="https://github.com/ritikraj07/Project_Spotify.com"> <FaGithub className="icon" /></a></p>
+                <p> <a target="_blank" href="https://github.com/dilasathapa/myfitnesspal-clone"> <FaGithub className="icon" /></a></p>
                 <p className="icon">|</p>
-                <p> <a href="https://wondrous-stroopwafel-729c2a.netlify.app"> <FaExternalLinkAlt className="icon" /></a> </p>
+                <p> <a target="_blank" href="https://myfitnesspal-cloned.netlify.app/"> <FaExternalLinkAlt className="icon" /></a> </p>
               </div>
             </div>
             <div className="project-photos">
@@ -62,9 +62,9 @@ const Projects = () => {
              <p>Completed core real-time chat functionality enabling dynamic conversations between random users.</p>
              <p>Currently working on additional features like user account management, random user matching, chat history, and theme customization.</p>
               <div className="icon-link">
-                <p> <a href="https://github.com/ritikraj07/Project_Spotify.com"> <FaGithub className="icon" /></a></p>
+                <p> <a target="_blank" href="https://github.com/dilasathapa/Fakesters"> <FaGithub className="icon" /></a></p>
                 <p className="icon">|</p>
-                <p> <a href="https://wondrous-stroopwafel-729c2a.netlify.app"> <FaExternalLinkAlt className="icon" /></a> </p>
+                <p> <a target="_blank" href="https://fakesters.netlify.app/"> <FaExternalLinkAlt className="icon" /></a> </p>
               </div>
             </div>
             
