@@ -1,8 +1,5 @@
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import pro1 from "./../images/videos/spotifyclonecom.gif";
-import pro2 from "./../images/videos/gif2.gif"
-import pro3 from "./../images/videos/gif3.gif"
 
 
 const Projects = () => {
