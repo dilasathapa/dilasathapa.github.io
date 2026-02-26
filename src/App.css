@@ -803,7 +803,7 @@ textarea:active {
 
 
 
-/* responsiveness */
+/* ------------------------------responsiveness------------------------ */
 
 @media (max-width:320px) {
 
@@ -881,123 +881,5 @@ textarea:active {
 /* @media only screen and (max-width: 768px) and (min-width : 319px) { */
 
 
-@media only screen and (max-width: 768px) and (min-width : 319px) {
-  nav.navbar {
-    /* width: 100%; */
-    margin: 0;
-    padding: 3% 0;
-  }
 
-  .banner h1 {
-    font-size: 50px;
-  }
-
-  .banner p {
-    font-size: smaller;
-  }
-
-  .myimage {
-    width: 300px;
-    margin-left: -20px;
-    height: 300px;
-    margin-top: -40%;
-  }
-
-  #achild-parent {
-    width: 95%;
-    margin: 0;
-    padding: 2%;
-    font-size: small;
-  }
-
-  .skill-bx {
-    box-shadow: rgb(18 147 158) 4px 12px 30px 1px;
-  }
-
-  .skill h2 {
-    font-size: xx-large;
-  }
-
-  .skill p {
-    font-size: medium;
-  }
-
-  #projects h1 {
-    font-size: xx-large;
-  }
-
-  #display {
-    width: 90%;
-    margin: 1% 2%;
-  }
-
-  #video-links {
-    margin: 0 2%;
-    width: 100%;
-    height: 250px;
-  }
-
-  #pro-titles1 {
-    margin-left: 45%;
-    margin-top: 1%;
-  }
-
-  #video-links2 {
-    width: 100%;
-    height: 250px;
-    margin-top: -.3%;
-  }
-
-  #pro-titles2 {
-    margin-left: 20%;
-    margin-top: -5px;
-  }
-
-  #video-links3 {
-    width: 100%;
-    margin: 0;
-    height: 250px;
-  }
-
-  #pro-titles3 {
-    margin-left: 45%;
-  }
-
-  #githubstat {
-    margin-top: -2%;
-  }
-
-  #githubstat-child h1 {
-    font-size: xx-large;
-  }
-
-  #first-git {
-    width: 100%;
-  }
-
-  #git-side {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-
-  }
-  #form h1{
-    font-size: xx-large;
-  }
-  #c-parent{
-    width: 80%;
-    margin: 0 10%;
-  }
-  #icona{
-    height: 95%;
-  }
-  #footer{
-    width: 70%;
-    margin: 0 15%;
-  }
-  .App{
-    overflow-x: hidden;
-    overflow-y: hidden;
-  }
-}
 
