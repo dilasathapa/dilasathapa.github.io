@@ -67,7 +67,7 @@ export const Banner = () => {
     return (
         <section className="banner" id="home" >
             <Container>
-                <Row className="align-items-center">
+                <Row className="align-items-center main-banner-container" >
                     <Col xs={12} md={6} xl={7}>
                         <TrackVisibility>
                             {({ isVisible }) =>
@@ -83,7 +83,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "" : ""}>
-                  <img className="myimage" src={dthapa} alt="Header Img"/>
+                  <img className="myimage" id="dp" src={dthapa} alt="Header Img"/>
                 </div>}
             </TrackVisibility>
           </Col>

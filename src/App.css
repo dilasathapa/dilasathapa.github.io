@@ -72,38 +72,13 @@ a:hover {
 
 }
 
-/* .img:hover{
-  width: 75%;
-  height: auto;
-  /* color: #fff; 
-  color: #121212;
-  border: 2px solid red;
-} */
 
 button {
   border: 0;
   background-color: transparent;
 }
 
-/* 
-input:focus, textarea:focus, select:focus {
-  outline: none;
-} */
 
-@media (min-width:1700px) {
-  main .container {
-    max-width: 100%;
-    padding: 0 150px;
-  }
-}
-
-/* p.success {
-	color: green;
-}
-
-p.danger {
-	color: red;
-} */
 
 nav.navbar {
   padding: 18px 0;
@@ -832,229 +807,83 @@ textarea:active {
 
 @media (max-width:320px) {
 
-  /* .myimage {
-    width: 80%;
-    margin-left: 10%;
-    height: 240px;
-    margin-top: 6%;
-  } */
-  .myimage {
-    margin-top: 50%;
-    margin-left: 17%;
+ 
+  #navbar-container{
+    width: 100vw;
+    border: 2px solid red;
   }
 
-  #achild-parent {
-    width: 99.5%;
-    margin: 1%;
-    font-size: small;
+  .navbar-toggler-icon{
+    
+  }
+  #about-font{
+    border: 2px solid pink;
+    font-size: 12px;
+  }
+  #skills-font{
+    border: 2px solid pink;
+    font-size: 12px;
+  }
+  #projects-font{
+    border: 2px solid pink;
+    font-size: 12px;
   }
 
-  #about {
-    margin-top: -25%;
+  #name-title{
+    font-size: 15px;
   }
-
-  .skill h2 {
-    font-size: xx-large;
+  #basic-navbar-nav{
+    border: 2px solid yellow;
   }
-
-  .skill p {
-    width: 120%;
-    margin: 1%;
-    margin-left: -9%;
-    font-size: small;
-  }
-
-  /* .react-multiple-carousel__arrow {
-    visibility: hidden;
-  } */
-  .react-multiple-carousel__arrow--left {
+  
+  .main-banner-container{
+    border: 2px solid green;
+    width: 100vw;
     visibility: hidden;
   }
-
-  .skill-bx {
-    margin-top: 3%;
-  }
-
-  #myprojects {
-    margin-top: -13%;
-  }
-
-  #projects h1 {
-    font-size: xx-large;
-  }
-
-  #display {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #video-links {
-    width: 98%;
-    margin: 1%;
-    height: 200px;
-  }
-
-  #pro-titles1 {
-    margin: 0 30%;
-  }
-
-  #play:hover #link {
-    margin: 1% 30%;
-    height: 30px;
-  }
-
-  .icon {
-    height: 20px;
-    width: 20px;
-  }
-
-  #video-links2 {
-    width: 98%;
-    margin: 1%;
-    height: 200px;
-  }
-
-  #pro-titles2 {
-    margin: 0 25%;
-    width: 100%;
-  }
-
-  #pro-titles3 {
-    margin: 0 40%;
-    width: 100%;
-  }
-
-  #video-links3 {
-    width: 98%;
-    margin: 1%;
-    height: 200px;
-  }
-
-  #githubstat-child {
-    width: 100%;
-    margin: 0;
-  }
-
-  #githubstat-child h1 {
-    font-size: x-large;
-  }
-
-  #first-git {
-    width: 98%;
-    /* height: 200px; */
-    border: 2px solid rgb(18, 147, 158);
-  }
-
-  #git-side {
-    display: flex;
-    flex-direction: column;
-    width: 98%;
-    margin: 1%;
-  }
-
-  #git-side img {
-    border: 2px solid rgb(18, 147, 158);
-  }
-
-  #form {
-    /* padding: 0; */
-    padding-top: 10px;
-  }
-
-  #form h1 {
-
-    font-size: x-large;
-  }
-
-  #c-parent {
-    width: 98%;
-    margin: 1%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  #icona {
-    width: 200%;
-    /* margin: 0 30%; */
-    border-radius: 80px 80px 0 0;
-    height: 170px;
-  }
-
-  #child {
-    width: 100%;
-  }
-
-  #form-send p {
-    font-size: small;
-  }
-
-  #form-send input {
-    height: 28px;
-    width: 90%;
-  }
-
-  #form-send {
-    padding-left: 15%;
-  }
-
-  #form-send textarea {
-    width: 90%;
-  }
-
-  #footer {
-    width: 100%;
-    margin: 0;
-  }
-
-  .footer-icons {
-    height: 30px;
-  }
-
-  #footer h3 {
-    font-size: revert;
-  }
-
-  .banner h1 {
-    font-size: xx-large;
-  }
-
-  .banner p {
-    font-size: small;
-  }
-
-  .social-icon a {
-    width: 30px;
-    height: 30px;
-  }
-
-  .navbar-text button {
-    width: 150px;
-    height: 60px;
-    padding: 10px;
+   #dp{
+    border: 2px solid red;
+    height: 120px;
+    width: 120px;
 
   }
-
-  #root {
-    width: 120%;
-    overflow-x: hidden;
+  #about{
+    visibility: hidden;
+  }
+  #form{
+    visibility: hidden;
   }
 
-  /* #nav.navbar{
-    width : 100%;
-  } */
-  /* .container{
-    gap: 10px;
-    display: flex;
-    justify-content: left;
-  } */
+  .experience{
+    visibility: hidden;
+  }
+
+  #footer-parent{
+    visibility: hidden;
+  }
+  #githubstat{
+    visibility: hidden;
+  }
+
+  #myprojects{
+    visibility: hidden;
+  }
+
+  .skill{
+    visibility: hidden;
+  }
+
+  
 
 
+  
 }
+/* @media only screen and (max-width: 768px) and (min-width : 319px) { */
 
 
 @media only screen and (max-width: 768px) and (min-width : 319px) {
   nav.navbar {
-    width: 100%;
+    /* width: 100%; */
     margin: 0;
     padding: 3% 0;
   }
@@ -1171,3 +1000,4 @@ textarea:active {
     overflow-y: hidden;
   }
 }
+

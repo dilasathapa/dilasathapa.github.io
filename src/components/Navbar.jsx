@@ -28,9 +28,9 @@ export const NavBar = () => {
 
 
     return (
-        <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+        <Navbar expand="lg" className={scrolled ? "scrolled" : ""} id='navbar-container' >
             <Container>
-                <Nav.Link href='#home'>Dilasa Thapa</Nav.Link>
+                <Nav.Link href='#home' id='name-title'>Dilasa Thapa</Nav.Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className='navbar-toggler-icon'></span>
 
@@ -39,9 +39,9 @@ export const NavBar = () => {
                     <Nav className='me-auto'>
 
                         {/* <Nav.Link href='#' className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link> */}
-                        <Nav.Link href='#about' className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about-parent')}>About</Nav.Link>
-                        <Nav.Link href='#skills' className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-                        <Nav.Link href='#myprojects' className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('project-parent')}>Projects</Nav.Link>
+                        <Nav.Link href='#about' className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} id='about-font' onClick={() => onUpdateActiveLink('about-parent')}>About</Nav.Link>
+                        <Nav.Link href='#skills' className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} id='skills-font' onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
+                        <Nav.Link href='#myprojects' className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} id='projects-font' onClick={() => onUpdateActiveLink('project-parent')}>Projects</Nav.Link>
 
                     </Nav>
                     <span className='navbar-text'>
