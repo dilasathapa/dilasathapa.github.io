@@ -26,6 +26,16 @@ export const NavBar = () => {
         setActiveLink(value);
     }
 
+    const onButtonClick = () => {
+        window.open("/dilasa_thapa.pdf", "_blank");
+
+        const link = document.createElement("a");
+        link.href = "/dilasa_thapa.pdf";
+        link.download = "dilasa_thapa.pdf";
+        link.click();
+      };
+
+
 
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""} id='navbar-container' >
@@ -44,6 +54,8 @@ export const NavBar = () => {
                         <Nav.Link href='#experience' className={activeLink === 'experience' ? 'active navbar-link' : 'navbar-link'} id='experience-font' onClick={() => onUpdateActiveLink('experience')}>Experience</Nav.Link>
 
                         <Nav.Link href='#myprojects' className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} id='projects-font' onClick={() => onUpdateActiveLink('project-parent')}>Projects</Nav.Link>
+                        <Nav.Link className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} target='_blank' id='resume-font' onClick={onButtonClick}>Resume</Nav.Link>
+
 
                     </Nav>
                     <span className='navbar-text'>
