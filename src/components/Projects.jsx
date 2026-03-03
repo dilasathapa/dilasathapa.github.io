@@ -68,6 +68,25 @@ const Projects = () => {
             
 
           </div>
+           <div className="play" >
+            
+            <div className="description">
+              <h3>SkinStore Clone</h3>
+              <p>SkinStore is an online marketplace that offers a vast catalog of beauty products comprising skincare, haircare, self-care, makeup, and body categories. Customers can shop for premium beauty brands like SkinMedica, By Terry, Fragrance, SkinCeuticals, etc.</p>
+              <p>Built and implemented the Cart and Wishlist pages with dynamic state management, enabling users to add, remove, and manage products seamlessly. Integrated real-time updates to ensure a smooth and responsive user experience.</p>
+              <div className="icon-link">
+                <p> <a target="_blank" href="https://github.com/AmanNinave/Skin_Store_Clone"> <FaGithub className="icon" /></a></p>
+                <p className="icon">|</p>
+                <p> <a target="_blank" href="https://idyllic-biscuit-d36106.netlify.app/an-skinstore/homepage/"> <FaExternalLinkAlt className="icon" /></a> </p>
+              </div>
+            </div>
+            <div className="project-photos">
+
+              <img src="https://snipboard.io/rZJy1M.jpg" alt="p2" className="photo-links" />
+            </div>
+            
+
+          </div>
 
         </div>
       </div>

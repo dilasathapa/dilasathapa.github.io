@@ -55,7 +55,7 @@ const Experience=()=> {
     }, []);
 
   return (
-    <section className="experience">
+    <section className="experience" id="experience">
         <h1 ref={textRef} 
         className={isActive ? "text active" : "text"}
         >EXPERIENCE</h1>

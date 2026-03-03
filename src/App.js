@@ -17,8 +17,8 @@ function App() {
       <NavBar/>
       <Banner />
       <About />
-      <Experience />
       <Skills/>
+      <Experience />
       <Projects /> 
       <Githubstats />
       <Contact />
