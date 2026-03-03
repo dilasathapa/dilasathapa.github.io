@@ -9,6 +9,7 @@ import reacticon from "./../images/lang-img/react.ico"
 import expressicon from "./../images/lang-img/express.png"
 import mongodbicon from "./../images/lang-img/mongodb.ico"
 import javaicon from "./../images/lang-img/java.ico"
+import nextjsicon from "./../images/lang-img/nextjs.svg"
 
 
 
@@ -64,6 +65,10 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={reacticon} alt="Image-name4" style={{height:"100px", width:"100px"}} />
                                 <h5>React</h5>
+                            </div>
+                            <div className="item">
+                                <img src={nextjsicon} alt="Image-name4" style={{height:"100px", width:"100px"}} />
+                                <h5>Next.js</h5>
                             </div>
                             <div className="item">
                                 <img src={reduxicon} alt="Image-name5" style={{height:"100px", width:"100px"}}/>                            
