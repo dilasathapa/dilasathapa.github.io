@@ -13,17 +13,17 @@ const Projects = () => {
           <div className="play" >
             <div className="project-photos">
 
-              <img src="https://snipboard.io/KhOtc8.jpg" alt="p1" className="photo-links" />
+              <img src="https://snipboard.io/das0gQ.jpg" alt="p1" className="photo-links" />
             </div>
             <div className="description">
               <h3>The Nest Homestay</h3>
-              <p>Currently developing a full-stack room booking web application using React.js, Node.js, Express.js, MongoDB, Firebase, and Cloudinary; built a functional prototype featuring room listings, booking request forms, and dynamic availability.</p>
+              <p>Developed a full-stack room booking web application using React.js, Node.js, Express.js, and MongoDB; featuring room listings, booking request forms, and dynamic availability management.</p>
               <p>Designed responsive frontend components with React.js and CSS/SCSS, ensuring smooth navigation across desktop and mobile devices.</p>
-              <p>Implementing RESTful APIs and database schema for bookings, user interactions, and admin management while collaborating with the client for feedback and iterative improvements.</p>
+              <p>Implemented RESTful APIs and database schema for bookings, user interactions, and admin management while collaborating with the client for feedback and iterative improvements.</p>
               <div className="icon-link">
                 {/* <p> <a href="https://github.com/ritikraj07/Project_Spotify.com"> <FaGithub className="icon" /></a></p>
                 <p className="icon">|</p> */}
-                <p> <a target="_blank" href="https://nesthomestay-8e7e1.web.app/"> <FaExternalLinkAlt className="icon" /></a> </p>
+                <p> <a target="_blank" href="https://www.thenesthomestay.site/" <FaExternalLinkAlt className="icon" /></a> </p>
               </div>
             </div>
 
